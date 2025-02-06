@@ -1,3 +1,5 @@
+IDE --> https://www.eclipse.org/downloads/packages/installer
+
 Links:
 https://maven.apache.org/
 
@@ -12,6 +14,8 @@ https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 MVN Repository
 https://mvnrepository.com/
 
+https://isaacpro01.medium.com/how-to-create-jar-file-and-dockerize-a-springboot-application-all-in-docker-714d48196ea6
+
 
 
 Commands:
@@ -24,10 +28,15 @@ Install maven 3.6.x
 
    Better to install a higher version using below commands:
    https://maven.apache.org/download.cgi
+
+Note: use t2.medium instance type to install jenkins, particular to build mavan-job
    
    40  clear
    41  ls -l
    42  wget https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz
+
+wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz --> latest
+
    43  ls -l
    44  tar xvzf apache-maven-3.9.5-bin.tar.gz
    45  ls -l
@@ -61,3 +70,26 @@ Create a maven project
 Goals
 build package
 clean package
+
+Artifact Name: ArtifactID + Version + Packaging --> as specified in pom.xml
+
+Latest --> 
+wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
+48  wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+
+   49  ls -l
+   50  tar xvzf apache-maven-3.9.6-bin.tar.gz
+   51  ls -l
+   52  mv apache-maven-3.9.6 /opt/
+   53  cd /opt
+   54  ls -l
+   55  mv apache-maven-3.9.6 maven
+   56  ls -l
+   57  mvn -version
+   58  M3_HOME='/opt/maven'
+   60  echo $PATH
+   61  PATH="$M3_HOME/bin:$PATH"
+   62  export PATH
+   63  echo $PATH
+   64  mvn -version
+   65  history
