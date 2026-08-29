@@ -1,3 +1,27 @@
+git clone
+git init
+git add
+git commit
+git push
+git pull
+git rebase master / git merge src destination
+git status
+git log
+git branch
+git checkout
+git restore
+git rm
+git ls-files
+git revert
+git reset
+git stash
+git stash pop
+git stash clear
+git log --graph --pretty=oneline
+git merge
+Pull request
+
+
 1  git --version
     2  ls -l
     3  mkdir project1
@@ -924,3 +948,461 @@ ls -l
   300  git status
   301  git log --oneline
   302  ls -l
+
+
+
+
+
+
+--------------------------------------
+1st May 2025
+--------------------------------------
+root@ip-172-31-10-248:~/git-push-demo# history
+    1  apt update -y
+    2  clear
+    3  git clone https://github.com/raushan8586/pipeline1.git
+    4  ls -l
+    5  cd pipeline1/
+    6  ls -l
+    7  git log
+    8  git log --oneline
+    9  git branch
+   10  cd ..
+   11  ls -l
+   12  git clone https://github.com/raushan8586/git-push-demo.git
+   13  ls -l
+   14  cd git-push-demo/
+   15  ls -l
+   16  git branch
+   17  ls -l
+   18  git checkout branch1
+   19  ls -l
+   20  git branch
+   21  git checkout branch2
+   22  git checkout master
+   23  git branch
+   24  git log --oneline
+   25  git remote -v
+   26  git branch
+   27  git pull origin master
+   28  git log --oneline
+   29  git checkout branch1
+   30  git log --oneline
+   31  git rebase master
+   32  git log --oneline
+   33  git brancg
+   34  git branch
+   35  ls -l
+   36  vi file5.java
+   37  cat file5.java 
+   38  git log --oneline
+   39  ls -la
+   40  cd ..
+   41  mkdir test1
+   42  cd test1
+   43  git version
+   44  pwd
+   45  ls -la
+   46  ls -l
+   47  ls -la
+   48  git init
+   49  ls -l
+   50  ls -la
+   51  cd ..
+   52  ls -l
+   53  cd git-push-demo/
+   54  ls -l
+   55  git branch
+   56  ls -l
+   57  git checkout master
+   58  ls -l
+   59  git branch
+   60  pwd
+   61  git checkout branch1
+   62  ls -l
+   63  git status
+   64  git add file5.java
+   65  git status
+   66  pwd
+   67  git commit -m "file5.java added"
+   68  git log --oneline
+   69  git status
+   70  git checkout master
+   71  git log --oneline
+   72  ls -l
+   73  git checkout branch1
+   74  ls -l
+   75  git log --oneline
+   76  git push origin branch1
+   77  history
+
+------------------
+2nd May 2025
+---------------
+
+124  cd git-push-demo/
+  125  ls -l
+  126  git log
+  127  git log --oneline
+  128  pwd
+  129  ls -la
+  130  cd ..
+  131  ls -l
+  132  mkdir test2
+  133  cd test2
+  134  git version
+  135  ls -la
+  136  git status
+  137  pwd
+  138  vi sample1.java
+  139  cat sample1.java 
+  140  git status
+  141  cd ..
+  142  cd test1
+  143  ls -la
+  144  vi sample.java
+  145  cat sample.java 
+  146  git status
+  147  clear
+  148  git add sample.java
+  149  ls -l
+  150  git status
+  151  git log
+  152  git commit -m "1st-commit"
+  153  git log
+  154  git config --global user.name "Raushan Kumar"
+  155  git config --global user.email "raushan8586.kumar@gmail.com"
+  156  vi sample1.java
+  157  cat sample1.java 
+  158  git status
+  159  git add .
+  160  git commit -m "2nd-commit"
+  161  git log
+  162  git remote -v
+  163  cd ..
+  164  cd git-push-demo/
+  165  git remote -v
+  166  cd ..
+  167  ls -l
+  168  cd test1/
+  169  ls -l
+  170  git remote -v
+  171  git remote add origin https://github.com/raushan8586/may-2025-devops.git
+  172  git remote -v
+  173  git push https://github.com/raushan8586/may-2025-devops.git master
+  174  git push origin master
+  175  git branch branch1 master
+  176  git branch
+  177  git log --oneline
+  178  git checkout branch1
+  179  git log --oneline
+
+181  history
+  182  cd ..
+  183  ls -l
+  184  cd test1
+  185  ls -l
+  186  git branch
+  187  git push origin branch1
+  188  cd ..
+  189  ls -l
+  190  mkdir test3
+  191  cd test3
+  192  ls -l
+  193  ls -la
+  194  git init
+  195  git branch main master
+  196  cd ..
+  197  cd test1
+  198  ls -l
+  199  git branch
+  200  git branch main master
+  201  git branch
+  202  apt update -y
+  203  apt install apache2 -y
+  204  lsof -i -P -n | grep LISTEN
+  205  cd /var/www/html
+  206  ls -l
+  207  vi homepage.html
+  208  cat homepage.html 
+  209  ls -l
+  210  cd git-push-demo/
+  211  pwd
+  212  ls -la
+  213  git status
+  214  ls -l
+  215  cat file6.java 
+  216  git add file6.java 
+  217  git status
+  218  git commit -m "file6.java committed"
+  219  ls -l
+  220  git branch
+  221  git status
+  222  git log --oneline
+  223  git log
+  224  git log --oneline
+  225  git show 88c3768
+  226  git branch
+  227  git status
+  228  git remote -v
+  229  git push origin branch1
+  230  git log --oneline
+  231  git branch
+  232  git checkout master
+  233  git branch
+  234  git status
+  235  ls -l
+  236  git branch
+  237  git log --oneline
+  238  git branch branch2 master
+  239  git branch
+  240  git checkout branch2
+  241  git log --oneline
+  242  git push origin branch2
+  243  ls -l
+  244  vi app1.log
+  245  ls -l
+  246  vi readme1st
+  247  ls -l
+  248  git status
+  249  vi file7.java
+  250  git status
+  251  vi .gitignore
+  252  git status
+  253  ls -l
+  254  ls -la
+  255  git status
+  256  git add .
+  257  git commit -m "file7-gitignore-added"
+  258  git status
+  259  ls -l
+  260  vi app1.log
+  261  git status
+  262  ls -l
+  263  git push origin branch2
+  264  git status
+  265  ls -la
+  266  ls -l
+  267  rm file7.java
+  268  ls -l
+  269  git status
+  270  git restore file7.java
+  271  git status
+  272  ls -l
+  273  cd ..
+  274  ls -l
+  275  cd test1
+  276  ls -la
+  277  cd ..
+  278  cd test2
+  279  ls -la
+  280  rm sample1.java
+  281  cd ..
+  282  cd git-push-demo/
+  283  git log --oneline
+  284  git branch
+  285  ls -l
+  286  cd git-push-demo/
+  287  ls -l
+  288  ls -la
+  289  cat .gitignore
+  290  git rm file7.java
+  291  ls -l
+  292  git ls-files
+  293  git status
+  294  git restore --staged file7.java
+  295  git ls-files
+  296  ls -l
+  297  git status
+  298  git restore file7.java 
+  299  ls -l
+  300  git status
+  301  git log --oneline
+
+303  ls -l
+  304  git log --oneline
+  305  vi file8.java
+  306  git add file8.java 
+  307  git commit -m "file8.java added"
+  308  git log --oneline
+  309  ls -l
+  310  git ls-files
+  311  git revert cf9ef2b
+  312  git log --oneline
+  313  ls -l
+  314  git ls-files
+  315  git log --oneline
+  316  git show cf9ef2b
+  317  git show 94c8e30
+  318  history
+  319  git branch
+  320  git log --oneline
+  321  git reset --hard 2dfa69e
+  322  git log --oneline
+  323  git status
+  324  ls -l
+  325  vi sample.java
+  326  git add .
+  327  git commit -m "sample.java added"
+  328  git log --oneline
+  329  git reset --soft 2dfa69e
+  330  git log --oneline
+  331  git status
+  332  git commit -m "sample.java committed again"
+  333  git status
+  334  history
+  335  ls -l
+  336  git status
+  337  git log --oneline
+  338  vi sample1.java
+  339  git add .
+  340  git commit -m "sample1.java added"
+  341  git log --oneline
+  342  vi sample.java
+  343  vi sample1.java
+  344  git status
+  345  cat sample.java 
+  346  cat sample1.java 
+  347  git status
+  348  git stash list
+  349  git stash --> move unstaged chnages to a temp shell
+  350  git status
+  351  git stash list --> list all the stash IDs
+  352  git stash pop stash@{0} --> unstash and delete the stash ID from temp shell
+  353  git status
+  354  git stash list
+  355  history
+  356  ls -l
+  357  git stash
+  358  git status
+  359  git stash list
+  360  git stash pop stash@{0}
+  361  git log --oneline
+  362  git stash
+  363  git stash list
+  364  git show stash@{0}
+
+366  git stash list
+  367  ls -l
+  368  vi sample.java
+  369  git add .
+  370  git commit -m "sample.java completed"
+  371  git stash pop stash@{0}
+  372  vi sample.java
+  373  git status
+  374  git add sample.java
+  375  git status
+  376  cd git-push-demo/
+  377  ls -l
+  378  git status
+  379  git restore --staged .
+  380  git status
+  381  git stash list
+  382  git stash clear
+  383  git stash list
+  384  git status
+  385  git stash -p
+  386  git status
+  387  git stash list
+  388  git stash clear
+  389  git status
+  390  git restore sample1.java
+  391  git status
+  392  ls -l
+  393  vi file1
+  394  Z
+  395  git status
+  396  git restore file1
+  397  git status
+  398  git branch
+  399  git log --oneline
+  400  git checkout master
+  401  git pull origin master
+  402  git checkout -b branch3 master
+  403  git branch
+  404  git checkout master
+  405  git pull origin master
+  406  ls -l
+  407  git checkout branch3
+  408  git rebase master
+  409  ls -l
+  410  vi test.properties 
+  411  git status
+  412  ls -l
+  413  git restore test.properties 
+  414  git branch
+  415  git checkout master
+  416  git status
+  417  vi .gitignore
+  418  git status
+  419  git add .
+  420  git commit -m "gitignore-added"
+  421  git push origin master
+  422  git pull origin master
+  423  git config pull.rebase true
+  424  git pull origin master
+  425  git status
+  426  git push origin master
+  427  git status
+  428  git checkout branch3
+  429  git rebase master
+  430  ls -l
+  431  ls -la
+  432  git push origin branch3
+  433  ls -l
+  434  vi test.properties 
+  435  cat test.properties 
+  436  git status
+  437  git checkout master
+  438  git pull origin master
+  439  git branch
+  440  git checkout branch3
+  441  ls -
+  442  ls -l
+  443  git status
+  444  git stash
+  445  git status
+  446  git checkout master
+  447  git pull origin master
+  448  git checkout branch3
+  449  git rebase master
+  450  cat test.properties 
+  451  git stash list
+  452  git stash pop stash@{0}
+  453  vi test.properties 
+  454  git status
+  455  git add test.properties 
+  456  git status
+  457  git commit -m "test-properties-modified"
+  458  git log --graph --pretty=oneline
+  459  git branch
+  460  git checkout master
+  461  git pull origin master
+  462  git checkout branch3
+  463  git rebase master
+  464  ls -l
+  465  vi test.properties 
+  466  git status
+  467  git add .
+  468  git commit -m "test-prop-file-updated-dev3"
+  469  git log --graph --pretty=oneline
+  470  git status
+  471  git checkout master
+  472  git pull origin master
+  473  git checkout branch3
+  474  git rebase master
+  475  vi test.properties 
+  476  git status
+  477  git add test.properties 
+  478  git status
+  479  git commit -m "test-prop-file-conflict-resolved"
+  480  git status
+  481  git rebase --continue
+  482  git status
+  483  git log --graph --pretty=oneline
+  484  git branch
+  485  git status
+  486  cat test.properties 
+  487  git log --oneline
+  488  git checkout master
+  489  git log --oneline
